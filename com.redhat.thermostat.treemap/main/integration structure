@@ -1,0 +1,478 @@
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-ann: <http://www.architexa.com/rdf/ann#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#main_slintegration structure> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node19nto3jfox77315 .
+
+_:node19nto3jfox77315 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal> ;
+	atxa-core:posX "1742" ;
+	atxa-core:posY "556" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$HistogramPanel> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$SwingHeapDumpDetailsViewProvider> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$HeapDetailsSwing> .
+
+_:node19nto3jfox77315 atxa-core:contains _:node19nto3jfox77319 .
+
+_:node19nto3jfox77319 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$HistogramPanel> ;
+	atxa-core:posX "1748" ;
+	atxa-core:posY "662" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$HistogramPanel> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$HistogramPanel.display(ObjectHistogram,)> .
+
+_:node19nto3jfox8 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77319 ;
+	rdf:object _:node19nto3jfox77320 ;
+	atxa-core:bendpoint _:node19nto3jfox164813 .
+
+_:node19nto3jfox164813 atxa-core:bpLocation "1866,415" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox8 atxa-core:bendpoint _:node19nto3jfox164814 .
+
+_:node19nto3jfox164814 atxa-core:bpLocation "2819,415" ;
+	atxa-core:bpIndex "1" .
+
+_:node19nto3jfox20 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77319 ;
+	rdf:object _:node19nto3jfox77323 ;
+	atxa-core:bendpoint _:node19nto3jfox164815 .
+
+_:node19nto3jfox164815 atxa-core:bpLocation "1866,354" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox20 atxa-core:bendpoint _:node19nto3jfox164816 .
+
+_:node19nto3jfox164816 atxa-core:bpLocation "1788,354" ;
+	atxa-core:bpIndex "1" .
+
+_:node19nto3jfox77319 atxa-core:contains _:node19nto3jfox100342 .
+
+_:node19nto3jfox100342 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$HistogramPanel.display(ObjectHistogram,)> ;
+	atxa-core:posX "1749" ;
+	atxa-core:posY "683" .
+
+_:node19nto3jfox79502 a atxa-core:link ;
+	atxa-core:model atxa-ann:namedRel ;
+	rdf:subject _:node19nto3jfox100342 ;
+	rdf:object _:node19nto3jfox100343 ;
+	atxa-core:width "2" ;
+	atxa-core:commentTxt "  " .
+
+_:node19nto3jfox77315 atxa-core:contains _:node19nto3jfox77326 .
+
+_:node19nto3jfox77326 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$SwingHeapDumpDetailsViewProvider> ;
+	atxa-core:posX "2030" ;
+	atxa-core:posY "653" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$SwingHeapDumpDetailsViewProvider> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$SwingHeapDumpDetailsViewProvider.createView()> .
+
+_:node19nto3jfox11728 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77326 ;
+	rdf:object _:node19nto3jfox77327 ;
+	atxa-core:bendpoint _:node19nto3jfox164817 .
+
+_:node19nto3jfox164817 atxa-core:bpLocation "2259,338" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox11728 atxa-core:bendpoint _:node19nto3jfox164818 .
+
+_:node19nto3jfox164818 atxa-core:bpLocation "2241,338" ;
+	atxa-core:bpIndex "1" .
+
+_:node19nto3jfox77326 atxa-core:contains _:node19nto3jfox77329 .
+
+_:node19nto3jfox77329 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$SwingHeapDumpDetailsViewProvider.createView()> ;
+	atxa-core:posX "2031" ;
+	atxa-core:posY "674" .
+
+_:node19nto3jfox18175 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node19nto3jfox77329 ;
+	rdf:object _:node19nto3jfox77329 .
+
+_:node19nto3jfox77234 a atxa-core:link ;
+	atxa-core:model atxa-ann:namedRel ;
+	rdf:subject _:node19nto3jfox77329 ;
+	rdf:object _:node19nto3jfox77319 ;
+	atxa-core:width "2" ;
+	atxa-core:commentTxt "  " .
+
+_:node19nto3jfox77315 atxa-core:contains _:node19nto3jfox77316 .
+
+_:node19nto3jfox77316 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.swing.internal$HeapDetailsSwing> ;
+	atxa-core:posX "2481" ;
+	atxa-core:posY "584" .
+
+_:node19nto3jfox49475 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77316 ;
+	rdf:object _:node19nto3jfox77317 ;
+	atxa-core:bendpoint _:node19nto3jfox164819 .
+
+_:node19nto3jfox164819 atxa-core:bpLocation "2560,355" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox155363 a atxa-core:link ;
+	atxa-core:model atxa-ann:namedRel ;
+	rdf:subject _:node19nto3jfox77316 ;
+	rdf:object _:node19nto3jfox162594 ;
+	atxa-core:width "2" ;
+	atxa-core:commentTxt "  " .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox77330 .
+
+_:node19nto3jfox77330 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.swing> ;
+	atxa-core:posX "2736" ;
+	atxa-core:posY "326" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.swing> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.swing$SwingComponent> .
+
+_:node19nto3jfox77330 atxa-core:contains _:node19nto3jfox77320 .
+
+_:node19nto3jfox77320 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.swing$SwingComponent> ;
+	atxa-core:posX "2742" ;
+	atxa-core:posY "354" .
+
+_:node19nto3jfox93 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77320 ;
+	rdf:object _:node19nto3jfox77331 ;
+	atxa-core:bendpoint _:node19nto3jfox164820 .
+
+_:node19nto3jfox164820 atxa-core:bpLocation "2819,125" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox93 atxa-core:bendpoint _:node19nto3jfox164821 .
+
+_:node19nto3jfox164821 atxa-core:bpLocation "1788,125" ;
+	atxa-core:bpIndex "1" .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox77334 .
+
+_:node19nto3jfox77334 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core> ;
+	atxa-core:posX "1664" ;
+	atxa-core:posY "249" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapHistogramView> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapDumpDetailsViewProvider> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapDumpDetailsView> .
+
+_:node19nto3jfox77334 atxa-core:contains _:node19nto3jfox77323 .
+
+_:node19nto3jfox77323 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapHistogramView> ;
+	atxa-core:posX "1670" ;
+	atxa-core:posY "293" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapHistogramView> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapHistogramView.display(ObjectHistogram,)> .
+
+_:node19nto3jfox64 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77323 ;
+	rdf:object _:node19nto3jfox77335 ;
+	atxa-core:bendpoint _:node19nto3jfox164822 .
+
+_:node19nto3jfox164822 atxa-core:bpLocation "1788,125" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox64 atxa-core:bendpoint _:node19nto3jfox164823 .
+
+_:node19nto3jfox164823 atxa-core:bpLocation "2023,125" ;
+	atxa-core:bpIndex "1" .
+
+_:node19nto3jfox92 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77323 ;
+	rdf:object _:node19nto3jfox77331 ;
+	atxa-core:bendpoint _:node19nto3jfox164824 .
+
+_:node19nto3jfox164824 atxa-core:bpLocation "1788,125" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox77323 atxa-core:contains _:node19nto3jfox77340 .
+
+_:node19nto3jfox77340 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapHistogramView.display(ObjectHistogram,)> ;
+	atxa-core:posX "1671" ;
+	atxa-core:posY "314" .
+
+_:node19nto3jfox77334 atxa-core:contains _:node19nto3jfox77327 .
+
+_:node19nto3jfox77327 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapDumpDetailsViewProvider> ;
+	atxa-core:posX "2121" ;
+	atxa-core:posY "277" .
+
+_:node19nto3jfox14912 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77327 ;
+	rdf:object _:node19nto3jfox77346 ;
+	atxa-core:bendpoint _:node19nto3jfox164825 .
+
+_:node19nto3jfox164825 atxa-core:bpLocation "2241,90" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox14912 atxa-core:bendpoint _:node19nto3jfox164826 .
+
+_:node19nto3jfox164826 atxa-core:bpLocation "2482,90" ;
+	atxa-core:bpIndex "1" .
+
+_:node19nto3jfox77334 atxa-core:contains _:node19nto3jfox77317 .
+
+_:node19nto3jfox77317 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapDumpDetailsView> ;
+	atxa-core:posX "2446" ;
+	atxa-core:posY "294" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapDumpDetailsView> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapDumpDetailsView.HeapDumpDetailsView()> .
+
+_:node19nto3jfox47223 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77317 ;
+	rdf:object _:node19nto3jfox77335 ;
+	atxa-core:bendpoint _:node19nto3jfox164827 .
+
+_:node19nto3jfox164827 atxa-core:bpLocation "2560,125" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox47223 atxa-core:bendpoint _:node19nto3jfox164828 .
+
+_:node19nto3jfox164828 atxa-core:bpLocation "2023,125" ;
+	atxa-core:bpIndex "1" .
+
+_:node19nto3jfox47314 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19nto3jfox77317 ;
+	rdf:object _:node19nto3jfox77331 ;
+	atxa-core:bendpoint _:node19nto3jfox164829 .
+
+_:node19nto3jfox164829 atxa-core:bpLocation "2560,125" ;
+	atxa-core:bpIndex "0" .
+
+_:node19nto3jfox47314 atxa-core:bendpoint _:node19nto3jfox164830 .
+
+_:node19nto3jfox164830 atxa-core:bpLocation "1788,125" ;
+	atxa-core:bpIndex "1" .
+
+_:node19nto3jfox77317 atxa-core:contains _:node19nto3jfox77345 .
+
+_:node19nto3jfox77345 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core$HeapDumpDetailsView.HeapDumpDetailsView()> ;
+	atxa-core:posX "2447" ;
+	atxa-core:posY "315" .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox77350 .
+
+_:node19nto3jfox77350 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views> ;
+	atxa-core:posX "1718" ;
+	atxa-core:posY "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views$BasicView> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views$UIComponent> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views$ViewProvider> .
+
+_:node19nto3jfox77350 atxa-core:contains _:node19nto3jfox77335 .
+
+_:node19nto3jfox77335 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views$BasicView> ;
+	atxa-core:posX "1971" ;
+	atxa-core:posY "64" .
+
+_:node19nto3jfox77350 atxa-core:contains _:node19nto3jfox77331 .
+
+_:node19nto3jfox77331 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views$UIComponent> ;
+	atxa-core:posX "1724" ;
+	atxa-core:posY "64" .
+
+_:node19nto3jfox77350 atxa-core:contains _:node19nto3jfox77346 .
+
+_:node19nto3jfox77346 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.client.core.views$ViewProvider> ;
+	atxa-core:posX "2420" ;
+	atxa-core:posY "29" .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox77351 .
+
+_:node19nto3jfox77351 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal> ;
+	atxa-core:posX "1210" ;
+	atxa-core:posY "265" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpController> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpDetailsController> .
+
+_:node19nto3jfox77351 atxa-core:contains _:node19nto3jfox77352 .
+
+_:node19nto3jfox77352 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpController> ;
+	atxa-core:posX "1216" ;
+	atxa-core:posY "293" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpController> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpController.showHeapDumpDetails(HeapDump,)> .
+
+_:node19nto3jfox77352 atxa-core:contains _:node19nto3jfox77353 .
+
+_:node19nto3jfox77353 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpController.showHeapDumpDetails(HeapDump,)> ;
+	atxa-core:posX "1217" ;
+	atxa-core:posY "314" .
+
+_:node19nto3jfox5452 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node19nto3jfox77353 ;
+	rdf:object _:node19nto3jfox77354 .
+
+_:node19nto3jfox77351 atxa-core:contains _:node19nto3jfox77355 .
+
+_:node19nto3jfox77355 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpDetailsController> ;
+	atxa-core:posX "1384" ;
+	atxa-core:posY "433" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpDetailsController> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpDetailsController.setDump(HeapDump,)> .
+
+_:node19nto3jfox77355 atxa-core:contains _:node19nto3jfox77354 .
+
+_:node19nto3jfox77354 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.client.core.internal$HeapDumpDetailsController.setDump(HeapDump,)> ;
+	atxa-core:posX "1385" ;
+	atxa-core:posY "454" .
+
+_:node19nto3jfox988 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node19nto3jfox77354 ;
+	rdf:object _:node19nto3jfox77340 .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox100357 .
+
+_:node19nto3jfox100357 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.common> ;
+	atxa-core:posX "1349" ;
+	atxa-core:posY "555" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.common> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.common$ObjectHistogram> , <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.common$HeapDump> .
+
+_:node19nto3jfox100357 atxa-core:contains _:node19nto3jfox100343 .
+
+_:node19nto3jfox100343 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.common$ObjectHistogram> ;
+	atxa-core:posX "1360" ;
+	atxa-core:posY "665" .
+
+_:node19nto3jfox100357 atxa-core:contains _:node19nto3jfox100356 .
+
+_:node19nto3jfox100356 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.redhat.thermostat.vm.heap.analysis.common$HeapDump> ;
+	atxa-core:posX "1355" ;
+	atxa-core:posY "583" .
+
+_:node19nto3jfox89812 a atxa-core:link ;
+	atxa-core:model atxa-ann:namedRel ;
+	rdf:subject _:node19nto3jfox100356 ;
+	rdf:object _:node19nto3jfox100343 ;
+	atxa-core:width "2" ;
+	atxa-core:commentTxt "  " .
+
+<http://www.architexa.com/rdf/rse-eclipse#main_slintegration structure> atxa-core:contains _:node19nto3jfox162606 .
+
+_:node19nto3jfox162606 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox114636 .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox162606 .
+
+_:node19nto3jfox162606 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox114636 ;
+	atxa-core:posX "1807" ;
+	atxa-core:posY "705" ;
+	atxa-core:commentTxt "TreeMapComponent" .
+
+_:node19nto3jfox114636 a atxa-ann:comment .
+
+<http://www.architexa.com/rdf/rse-eclipse#main_slintegration structure> atxa-core:contains _:node19nto3jfox162607 .
+
+_:node19nto3jfox162607 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox124017 .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox162607 .
+
+_:node19nto3jfox162607 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox124017 ;
+	atxa-core:posX "1885" ;
+	atxa-core:posY "335" ;
+	atxa-core:commentTxt "HeapTreeMapView" .
+
+_:node19nto3jfox124017 a atxa-ann:comment .
+
+<http://www.architexa.com/rdf/rse-eclipse#main_slintegration structure> atxa-core:contains _:node19nto3jfox162608 .
+
+_:node19nto3jfox162608 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox129598 .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox162608 .
+
+_:node19nto3jfox162608 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox129598 ;
+	atxa-core:posX "2181" ;
+	atxa-core:posY "345" ;
+	atxa-core:commentTxt "HeapDumpTreeMapViewProvider" .
+
+_:node19nto3jfox129598 a atxa-ann:comment .
+
+<http://www.architexa.com/rdf/rse-eclipse#main_slintegration structure> atxa-core:contains _:node19nto3jfox162609 .
+
+_:node19nto3jfox162609 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox136679 .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox162609 .
+
+_:node19nto3jfox162609 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox136679 ;
+	atxa-core:posX "2165" ;
+	atxa-core:posY "720" ;
+	atxa-core:commentTxt "SwingHeapDumpTreeMapViewProvider" .
+
+_:node19nto3jfox136679 a atxa-ann:comment .
+
+<http://www.architexa.com/rdf/rse-eclipse#main_slintegration structure> atxa-core:contains _:node19nto3jfox162594 .
+
+_:node19nto3jfox162594 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox146380 .
+
+atxa-core:docRoot atxa-core:contains _:node19nto3jfox162594 .
+
+_:node19nto3jfox162594 a atxa-core:node ;
+	atxa-core:model _:node19nto3jfox146380 ;
+	atxa-core:posX "2447" ;
+	atxa-core:posY "350" ;
+	atxa-core:commentTxt "addSubView(HeapTreeMapView child)" .
+
+_:node19nto3jfox146380 a atxa-ann:comment .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-ann: <http://www.architexa.com/rdf/ann#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#main_slintegration structure> a atxa-core:reloFile ;
+	atxa-core:contains _:node19nto3jfox100342 , _:node19nto3jfox77319 , _:node19nto3jfox77329 , _:node19nto3jfox77326 , _:node19nto3jfox77316 , _:node19nto3jfox77315 , _:node19nto3jfox77320 , _:node19nto3jfox77330 , _:node19nto3jfox77340 , _:node19nto3jfox77323 , _:node19nto3jfox77327 , _:node19nto3jfox77345 , _:node19nto3jfox77317 , _:node19nto3jfox77334 , _:node19nto3jfox77335 , _:node19nto3jfox77331 , _:node19nto3jfox77346 , _:node19nto3jfox77350 , _:node19nto3jfox77353 , _:node19nto3jfox77352 , _:node19nto3jfox77354 , _:node19nto3jfox77355 , _:node19nto3jfox77351 , _:node19nto3jfox100343 , _:node19nto3jfox100356 , _:node19nto3jfox100357 , atxa-core:docRoot , _:node19nto3jfox100342 , _:node19nto3jfox77319 , _:node19nto3jfox77329 , _:node19nto3jfox77326 , _:node19nto3jfox77316 , _:node19nto3jfox77315 , _:node19nto3jfox77320 , _:node19nto3jfox77330 , _:node19nto3jfox77340 , _:node19nto3jfox77323 , _:node19nto3jfox77327 , _:node19nto3jfox77345 , _:node19nto3jfox77317 , _:node19nto3jfox77334 , _:node19nto3jfox77335 , _:node19nto3jfox77331 , _:node19nto3jfox77346 , _:node19nto3jfox77350 , _:node19nto3jfox77353 , _:node19nto3jfox77352 , _:node19nto3jfox77354 , _:node19nto3jfox77355 , _:node19nto3jfox77351 , _:node19nto3jfox100343 , _:node19nto3jfox100356 , _:node19nto3jfox100357 , atxa-core:docRoot , _:node19nto3jfox8 , _:node19nto3jfox20 , _:node19nto3jfox79502 , _:node19nto3jfox11728 , _:node19nto3jfox18175 , _:node19nto3jfox77234 , _:node19nto3jfox49475 , _:node19nto3jfox155363 , _:node19nto3jfox93 , _:node19nto3jfox64 , _:node19nto3jfox92 , _:node19nto3jfox14912 , _:node19nto3jfox47223 , _:node19nto3jfox47314 , _:node19nto3jfox5452 , _:node19nto3jfox988 , _:node19nto3jfox89812 , _:node19nto3jfox8 , _:node19nto3jfox20 , _:node19nto3jfox79502 , _:node19nto3jfox11728 , _:node19nto3jfox18175 , _:node19nto3jfox77234 , _:node19nto3jfox49475 , _:node19nto3jfox155363 , _:node19nto3jfox93 , _:node19nto3jfox64 , _:node19nto3jfox92 , _:node19nto3jfox14912 , _:node19nto3jfox47223 , _:node19nto3jfox47314 , _:node19nto3jfox5452 , _:node19nto3jfox988 , _:node19nto3jfox89812 .
+
